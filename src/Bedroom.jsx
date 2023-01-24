@@ -1,7 +1,7 @@
 const Bedroom = (props) => {
   console.log(props);
   return ( 
-    <div>Bedroom{props.name}</div>
+    <div>Bedroom {props.bednum}</div>
   );
 }
  

@@ -1,6 +1,6 @@
 const Bath = (props) => {
   return (
-    <div>Bath{props.name}</div>
+    <div>{props.size} Bath</div>
 )}
  
 export default Bath;

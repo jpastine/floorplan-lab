@@ -7,13 +7,13 @@ const FloorPlan = (props) => {
   console.log(props)
   return ( 
     <>
-      <Bedroom />
+      <Bedroom bednum='1'/>
       <Kitchen />
-      <Bath />
-      <Bedroom />
+      <Bath size='Full'/>
+      <Bedroom bednum='2'/>
       <LivingRoom />
-      <Bath />
-      <Bedroom />
+      <Bath size='Half'/>
+      <Bedroom bednum='3'/>
       
 
     </>
